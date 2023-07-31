@@ -566,6 +566,54 @@ video {
   top: 5rem;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
+.top-52 {
+  top: 13rem;
+}
+
+.top-44 {
+  top: 11rem;
+}
+
+.top-4 {
+  top: 1rem;
+}
+
+.top-\[\] {
+  top: ;
+}
+
+.top-\[11rem\] {
+  top: 11rem;
+}
+
+.top-\[12rem\] {
+  top: 12rem;
+}
+
+.top-\[rem\] {
+  top: rem;
+}
+
+.top-\[17\] {
+  top: 17;
+}
+
+.top-\[178px\] {
+  top: 178px;
+}
+
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+
 .mx-14 {
   margin-left: 3.5rem;
   margin-right: 3.5rem;
@@ -574,6 +622,11 @@ video {
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .mt-4 {
@@ -606,6 +659,10 @@ video {
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .gap-5 {
@@ -652,6 +709,15 @@ video {
   background-color: rgb(237 237 237 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#\] {
+  background-color: #;
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -682,8 +748,34 @@ video {
   padding-right: 3.5rem;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .pb-0 {
   padding-bottom: 0px;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.pr-3 {
+  padding-right: 0.75rem;
+}
+
+.pr-5 {
+  padding-right: 1.25rem;
+}
+
+.pr-7 {
+  padding-right: 1.75rem;
 }
 
 .text-2xl {
