@@ -3,22 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/dist/output.css" rel="stylesheet">
+  <link href="dist/output.css" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <div class="nav">
+  <div class="container grid">
+    <div class="nav flex my-8 mx-14 gap-8">
         <div class="logo">
             <img src="/img/logo-university-of-manchester.png" alt="">
         </div>
-        <div class="links">
-            <ul>
-                <a href="#"><img src="img/icon-home-25px-949699.png" alt=""></a>
+        <div class="links mt-8">
+            <ul class="flex  gap-5 font-light text-2xl">
+                <a href="#"><li><img src="img/icon-home-25px-949699.png" alt=""></li></a>
+                <a href="#"><li>Study</a></li>
+                <a href="#"><li>Research</a></li>
+                <a href="#"><li>Collaborate</a></li>
+                <a href="#"><li>Discover</a></li>
+                <a href="#"><li>Connect</a></li>
             </ul>
         </div>
-        <div class="search">
-
+        <div class="search border-[1px] mt-8 border-gray-300 flex text-2xl font-light">
+          <img class="h-6" src="img/icon-search-mobile.png" alt="">
+          <h3>Search</h3>
         </div>
+    </div>
+    <div class="body1 relative">
+      <div class="img1">
+        <img src="img/Magazine-Nazir-1400x450.jpeg" alt="">
+      </div>
+      <div class="textcontent bg-[#E1E5D5] w-56 absolute top-20">
+        <div class="content ">
+          <h1 class="title">University Magazine
+            2023</h1>
+          <h3 class="texts">Our summer issue celebrates the students, staff and alumni embodying our six values as they make their mark on the world.</h3>
+        </div>
+        <div class="button bg-purple-800 text-white flex py-3">
+          <h2>Read more</h2>
+          <img src="img/icon-moreArrow-right (1).png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="body2 px-14">
+      <div class="title">
+        <h1>Study</h1>
+      </div>
+      <div class="boxes grid grid-cols-2 gap-10">
+        <div class="box1 bg-purple-800">
+          <h1>Course and programme finder</h1>
+          <div class="gid1">
+            <h1>A-Z lists</h1>
+          </div>
+        </div>
+        <div class="box2 bg-[#EDEDED]">
+          <div class="title">
+            <h1> Undergraduate</h1><br>
+            <h1>prospects</h1>
+          </div>
+
+            
+        </div>
+      </div>
     </div>
   </div>
 </body>
