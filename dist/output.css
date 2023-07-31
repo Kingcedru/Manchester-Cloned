@@ -716,6 +716,26 @@ video {
   margin-left: 3.5rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
 .flex {
   display: flex;
 }
@@ -912,6 +932,10 @@ video {
   gap: 12rem;
 }
 
+.gap-7 {
+  gap: 1.75rem;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -1051,6 +1075,16 @@ video {
   background-color: rgb(24 24 27 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#383B3D\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(56 59 61 / var(--tw-bg-opacity));
+}
+
+.bg-gray-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
 .p-2 {
   padding: 0.5rem;
 }
@@ -1139,6 +1173,31 @@ video {
   padding-bottom: 0.25rem;
 }
 
+.py-\[100\%\] {
+  padding-top: 100%;
+  padding-bottom: 100%;
+}
+
+.px-\[100\%\] {
+  padding-left: 100%;
+  padding-right: 100%;
+}
+
+.px-52 {
+  padding-left: 13rem;
+  padding-right: 13rem;
+}
+
+.px-32 {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 .pb-0 {
   padding-bottom: 0px;
 }
@@ -1191,6 +1250,18 @@ video {
   padding-top: 1.75rem;
 }
 
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
+.pr-14 {
+  padding-right: 3.5rem;
+}
+
+.pr-20 {
+  padding-right: 5rem;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1232,4 +1303,9 @@ video {
 .text-yellow-300 {
   --tw-text-opacity: 1;
   color: rgb(253 224 71 / var(--tw-text-opacity));
+}
+
+.text-\[\#F1DB66\] {
+  --tw-text-opacity: 1;
+  color: rgb(241 219 102 / var(--tw-text-opacity));
 }
